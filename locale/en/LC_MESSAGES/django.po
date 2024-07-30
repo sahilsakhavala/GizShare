@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-05 09:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: user/serializers.py:36
+msgid "Password field don't match"
+msgstr ""
+
+#: user/serializers.py:99 user/serializers.py:105
+msgid "The reset link is invalid"
+msgstr "The reset link is invalid"
+
+#: user/views.py:33
+msgid "Invalid username or password."
+msgstr "Invalid username or password."
+
+#: user/views.py:36
+msgid "Your account has not been verified. Please verify your email to log in."
+msgstr "Your account has not been verified. Please verify your email to log in."
+
+#: user/views.py:40
+msgid ""
+"Username Already Registered but account deactivated, please contact support "
+"team for Account recovery."
+msgstr "Username Already Registered but account deactivated, please contact support team for Account recovery."
+
+#: user/views.py:45
+msgid "This username is not registered in our system."
+msgstr "This username is not registered in our system."
+
+#: user/views.py:83
+msgid "No user found with this email address."
+msgstr "No user found with this email address."
+
+#: user/views.py:87
+msgid ""
+"You are not Verify, Verification email has been sent. Please check your mail."
+msgstr "You are not Verify, Verification email has been sent. Please check your mail."
+
+#: user/views.py:92
+msgid ""
+"Reset password link has been sent to your registered email. Please check "
+"your inbox or spam folder."
+msgstr "Reset password link has been sent to your registered email. Please check your inbox or spam folder."
+
+#: user/views.py:102
+msgid "Password reset success"
+msgstr "Password reset success"

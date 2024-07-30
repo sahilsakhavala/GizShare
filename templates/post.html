@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Post Notification</title>
+</head>
+<body>
+    <p>Hello,</p>
+
+    <p>A new post has been published in the "{{ post_category_name }}" category:</p>
+
+
+    {% if post_image %}
+    <img src="{{ post_image }}" alt="Post Image">
+    {% endif %}
+
+    <p>View the post <a href="{{ post_url }}">here</a>.</p>
+
+    <p>Regards,<br>
+    Your Application Team</p>
+</body>
+</html>

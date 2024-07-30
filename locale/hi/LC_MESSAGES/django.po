@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-05 09:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: user/serializers.py:36
+msgid "Password field don't match"
+msgstr "पासवर्ड फ़ील्ड मेल नहीं खाता"
+
+#: user/serializers.py:99 user/serializers.py:105
+msgid "The reset link is invalid"
+msgstr "रीसेट लिंक अमान्य है"
+
+#: user/views.py:33
+msgid "Invalid username or password."
+msgstr "अमान्य उपयोगकर्ता नाम या पासवर्ड।"
+
+#: user/views.py:36
+msgid "Your account has not been verified. Please verify your email to log in."
+msgstr "आपका खाता सत्यापित नहीं किया गया है। कृपया लॉग इन करने के लिए अपना ईमेल सत्यापित करें।"
+
+#: user/views.py:40
+msgid ""
+"Username Already Registered but account deactivated, please contact support "
+"team for Account recovery."
+msgstr "उपयोगकर्ता नाम पहले से पंजीकृत है लेकिन खाता निष्क्रिय है, कृपया खाता पुनर्प्राप्ति के लिए समर्थन टीम से संपर्क करें।"
+
+#: user/views.py:45
+msgid "This username is not registered in our system."
+msgstr "यह उपयोगकर्ता नाम हमारे सिस्टम में पंजीकृत नहीं है।"
+
+#: user/views.py:83
+msgid "No user found with this email address."
+msgstr "इस ईमेल पते वाला कोई उपयोगकर्ता नहीं मिला."
+
+#: user/views.py:87
+msgid "आप सत्यापित नहीं हैं, सत्यापन ईमेल भेजा गया है। कृपया अपना मेल जांचें।"
+"You are not Verify, Verification email has been sent. Please check your mail."
+msgstr ""
+
+#: user/views.py:92
+msgid ""
+"Reset password link has been sent to your registered email. Please check "
+"your inbox or spam folder."
+msgstr "आपके पंजीकृत ईमेल पर रीसेट पासवर्ड लिंक भेज दिया गया है। कृपया अपना इनबॉक्स या स्पैम फ़ोल्डर जांचें।"
+
+#: user/views.py:102
+msgid "Password reset success"
+msgstr "पासवर्ड रीसेट सफल"
